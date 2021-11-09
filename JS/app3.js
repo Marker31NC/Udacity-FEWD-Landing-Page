@@ -37,7 +37,7 @@ function removeActive() {
 //Setting the area in view as active
 function makeActiveClass() {
     for (section of sections)
-        if (section.getBoundingClienRect().top < window.innerHeight) {
+        if (section.getBoundingClientRect().top < window.innerHeight) {
             addActive();
         } else {
             removeActive();
